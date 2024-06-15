@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+.css-selector {
+  background: linear-gradient(35deg, #000000, #a30000, #879000, #067113, #002b99);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 43s ease infinite;
+  -moz-animation: AnimationName 43s ease infinite;
+  animation: AnimationName 43s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 96% 0%
+  }
+
+  50% {
+    background-position: 5% 100%
+  }
+
+  100% {
+    background-position: 96% 0%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 96% 0%
+  }
+
+  50% {
+    background-position: 5% 100%
+  }
+
+  100% {
+    background-position: 96% 0%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 96% 0%
+  }
+
+  50% {
+    background-position: 5% 100%
+  }
+
+  100% {
+    background-position: 96% 0%
+  }
+}
+
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #18181b;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FE0000;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: #eab308;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 500;
+}
